@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎧 Listening to LaewriMarket", "🎮 Playing Cheap Products"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["La Oscura", "La Oscura"];
+const statusTypes = [ 'streaming', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
